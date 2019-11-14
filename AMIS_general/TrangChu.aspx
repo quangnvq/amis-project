@@ -171,7 +171,7 @@
     <table class="auto-style52">
         <tr>
             <td class="auto-style63">
-                <asp:ImageButton ID="img_iphone11" runat="server" Height="221px" ImageUrl="~/Image/iphone-11-red-400x400.jpg" Width="215px" />
+                <asp:ImageButton ID="img_iphone11" runat="server" Height="221px" ImageUrl="~/Image/iphone-11-red-400x400.jpg" Width="215px" PostBackUrl="~/ThongTinSP/iphone11.aspx" />
             </td>
             <td class="auto-style56">
                 <asp:ImageButton ID="img_OppoA52" runat="server" Height="222px" ImageUrl="~/Image/oppo-a5s-red-400x400.jpg" Width="233px" />
@@ -183,7 +183,7 @@
         <tr>
             <td class="auto-style79">
                 <span class="auto-style84">iPhone 11 <span class="auto-style86">64GB<br />
-                </span></span>21<span class="auto-style86"><span class="auto-style89">.990.000<span class="auto-style90">đ</span></span></span><br />
+                </span></span><span class="auto-style86"><span class="auto-style89">21.990.000<span class="auto-style90">đ</span></span></span><br />
                 <asp:Button ID="btn_iphone11" runat="server" CssClass="auto-style80" Text="Mua Ngay" />
             </td>
             <td class="auto-style79">

@@ -36,6 +36,41 @@
             width: 168px;
             color: #666666;
         }
+        .auto-style60 {
+            width: 150px;
+            color: #666666;
+            height: 23px;
+        }
+        .auto-style61 {
+            width: 143px;
+            color: #666666;
+            height: 23px;
+        }
+        .auto-style62 {
+            width: 106px;
+            color: #666666;
+            height: 23px;
+        }
+        .auto-style63 {
+            width: 80px;
+            color: #666666;
+            height: 23px;
+        }
+        .auto-style64 {
+            width: 77px;
+            color: #666666;
+            height: 23px;
+        }
+        .auto-style65 {
+            width: 94px;
+            color: #666666;
+            height: 23px;
+        }
+        .auto-style66 {
+            width: 168px;
+            color: #666666;
+            height: 23px;
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder3" Runat="Server">
@@ -73,22 +108,22 @@
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
     <table class="auto-style47">
         <tr>
-            <td class="auto-style52">Mã sản phẩm</td>
-            <td class="auto-style54">Tên sản phẩm</td>
-            <td class="auto-style56">Danh mục</td>
-            <td class="auto-style57">Giá tiền </td>
-            <td class="auto-style58">Số lượng</td>
-            <td class="auto-style49">Thành tiền</td>
-            <td class="auto-style59">Chức năng</td>
+            <td class="auto-style60">Mã sản phẩm</td>
+            <td class="auto-style61">Tên sản phẩm</td>
+            <td class="auto-style62">Danh mục</td>
+            <td class="auto-style63">Giá tiền </td>
+            <td class="auto-style64">Số lượng</td>
+            <td class="auto-style65">Thành tiền</td>
+            <td class="auto-style66">Chức năng</td>
         </tr>
         <tr>
-            <td class="auto-style52">&nbsp;</td>
-            <td class="auto-style54">&nbsp;</td>
-            <td class="auto-style56">&nbsp;</td>
-            <td class="auto-style57">&nbsp;</td>
-            <td class="auto-style58">&nbsp;</td>
-            <td class="auto-style49">&nbsp;</td>
-            <td class="auto-style59">&nbsp;</td>
+            <td class="auto-style60"></td>
+            <td class="auto-style61"></td>
+            <td class="auto-style62"></td>
+            <td class="auto-style63"></td>
+            <td class="auto-style64"></td>
+            <td class="auto-style65"></td>
+            <td class="auto-style66"></td>
         </tr>
         <tr>
             <td class="auto-style52">&nbsp;</td>
