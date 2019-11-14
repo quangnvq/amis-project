@@ -171,58 +171,58 @@
     <table class="auto-style52">
         <tr>
             <td class="auto-style63">
-                <asp:ImageButton ID="ImageButton1" runat="server" Height="221px" ImageUrl="~/Image/New folder/vivo-v17-pro-blue-noo-600x600.jpg" Width="236px" />
+                <asp:ImageButton ID="img_Vivo17" runat="server" Height="221px" ImageUrl="~/Image/New folder/vivo-v17-pro-blue-noo-600x600.jpg" Width="236px" />
             </td>
             <td class="auto-style56">
-                <asp:ImageButton ID="ImageButton2" runat="server" Height="224px" ImageUrl="~/Image/New folder/vivo-v15-quanghai-600x600.jpg" Width="226px" />
+                <asp:ImageButton ID="img_Vivo15" runat="server" Height="224px" ImageUrl="~/Image/New folder/vivo-v15-quanghai-600x600.jpg" Width="226px" />
             </td>
             <td>
-                <asp:ImageButton ID="ImageButton3" runat="server" Height="221px" ImageUrl="~/Image/New folder/vivo-s1-blue-600x600.jpg" Width="239px" />
+                <asp:ImageButton ID="img_VivoS1" runat="server" Height="221px" ImageUrl="~/Image/New folder/vivo-s1-blue-600x600.jpg" Width="239px" />
             </td>
         </tr>
         <tr>
             <td class="auto-style79">
                 <span class="auto-style84"><span class="auto-style86">Vivo V17 Pro<br />
                 </span></span><span class="auto-style86"><span class="auto-style89">9.990.000<span class="auto-style90">đ</span></span></span><br />
-                <asp:Button ID="Button8" runat="server" CssClass="auto-style80" Text="Mua Ngay" />
+                <asp:Button ID="btn_Vivo17" runat="server" CssClass="auto-style80" Text="Mua Ngay" />
             </td>
             <td class="auto-style79">
                 <span class="auto-style88">Vivo V15<br />
                 <span class="auto-style86"><span class="auto-style89">5.690.000<span class="auto-style90">đ</span></span></span></span><br class="auto-style87" />
-                <asp:Button ID="Button9" runat="server" CssClass="auto-style80" Text="Mua Ngay" />
+                <asp:Button ID="btn_Vivo15" runat="server" CssClass="auto-style80" Text="Mua Ngay" />
             </td>
             <td class="auto-style66">
                 <span class="auto-style88">Vivo S1<br />
                 <span class="auto-style86"><span class="auto-style89">6.190.000<span class="auto-style90">đ</span></span></span></span><br />
-                <asp:Button ID="Button10" runat="server" CssClass="auto-style80" Text="Mua Ngay" />
+                <asp:Button ID="btn_VivoS1" runat="server" CssClass="auto-style80" Text="Mua Ngay" />
             </td>
         </tr>
         <tr>
             <td class="auto-style60">
-                <asp:ImageButton ID="ImageButton4" runat="server" Height="221px" ImageUrl="~/Image/New folder/sieu-pham-galaxy-s-moi-2-512gb-black-600x600.jpg" Width="234px" />
+                <asp:ImageButton ID="img_SamsungS10" runat="server" Height="221px" ImageUrl="~/Image/New folder/sieu-pham-galaxy-s-moi-2-512gb-black-600x600.jpg" Width="234px" />
             </td>
             <td class="auto-style56">
-                <asp:ImageButton ID="ImageButton5" runat="server" Height="220px" ImageUrl="~/Image/New folder/samsung-galaxy-note-10-silver-600x600.jpg" Width="231px" />
+                <asp:ImageButton ID="img_SamsungNote10" runat="server" Height="220px" ImageUrl="~/Image/New folder/samsung-galaxy-note-10-silver-600x600.jpg" Width="231px" />
             </td>
             <td>
-                <asp:ImageButton ID="ImageButton6" runat="server" Height="222px" ImageUrl="~/Image/New folder/samsung-galaxy-note-10-plus-silver-600x600.jpg" Width="235px" />
+                <asp:ImageButton ID="img_SamsungNote_10" runat="server" Height="222px" ImageUrl="~/Image/New folder/samsung-galaxy-note-10-plus-silver-600x600.jpg" Width="235px" />
             </td>
         </tr>
         <tr>
             <td class="auto-style78">
                 <span class="auto-style88">Samsung Galaxy S10+<br />
                 <span class="auto-style86"><span class="auto-style89">22.990.000<span class="auto-style90">đ</span></span></span></span><br />
-                <asp:Button ID="Button2" runat="server" CssClass="auto-style80" Text="Mua Ngay" />
+                <asp:Button ID="btn_SamsungS10" runat="server" CssClass="auto-style80" Text="Mua Ngay" />
             </td>
             <td class="auto-style78">
                 <span class="auto-style88">Samsung Galaxy Note 10+<br />
                 <span class="auto-style86"><span class="auto-style89">21.990.000<span class="auto-style90">đ</span></span></span></span><br />
-                <asp:Button ID="Button3" runat="server" CssClass="auto-style80" Text="Mua Ngay" />
+                <asp:Button ID="btn_SamsungNote10" runat="server" CssClass="auto-style80" Text="Mua Ngay" />
             </td>
             <td class="auto-style68">
                 <span class="auto-style88">Samsung Galaxy Note 10<br />
                 <span class="auto-style86"><span class="auto-style89">17.990.000<span class="auto-style90">đ</span></span></span></span><br />
-                <asp:Button ID="Button4" runat="server" CssClass="auto-style80" Text="Mua Ngay" />
+                <asp:Button ID="btn_SamsungNote_10" runat="server" CssClass="auto-style80" Text="Mua Ngay" />
             </td>
         </tr>
         <tr>

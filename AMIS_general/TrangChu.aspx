@@ -171,58 +171,58 @@
     <table class="auto-style52">
         <tr>
             <td class="auto-style63">
-                <asp:ImageButton ID="ImageButton1" runat="server" Height="221px" ImageUrl="~/Image/iphone-11-red-400x400.jpg" Width="215px" />
+                <asp:ImageButton ID="img_iphone11" runat="server" Height="221px" ImageUrl="~/Image/iphone-11-red-400x400.jpg" Width="215px" />
             </td>
             <td class="auto-style56">
-                <asp:ImageButton ID="ImageButton2" runat="server" Height="222px" ImageUrl="~/Image/oppo-a5s-red-400x400.jpg" Width="233px" />
+                <asp:ImageButton ID="img_OppoA52" runat="server" Height="222px" ImageUrl="~/Image/oppo-a5s-red-400x400.jpg" Width="233px" />
             </td>
             <td>
-                <asp:ImageButton ID="ImageButton3" runat="server" Height="217px" ImageUrl="~/Image/samsung-galaxy-a10s-ngaydep.jpg" Width="239px" />
+                <asp:ImageButton ID="img_SamsungA10" runat="server" Height="217px" ImageUrl="~/Image/samsung-galaxy-a10s-ngaydep.jpg" Width="239px" />
             </td>
         </tr>
         <tr>
             <td class="auto-style79">
                 <span class="auto-style84">iPhone 11 <span class="auto-style86">64GB<br />
                 </span></span>21<span class="auto-style86"><span class="auto-style89">.990.000<span class="auto-style90">đ</span></span></span><br />
-                <asp:Button ID="Button8" runat="server" CssClass="auto-style80" Text="Mua Ngay" />
+                <asp:Button ID="btn_iphone11" runat="server" CssClass="auto-style80" Text="Mua Ngay" />
             </td>
             <td class="auto-style79">
                 <span class="auto-style88">Oppo A52<br />
                 <span class="auto-style86"><span class="auto-style89">3.690.000<span class="auto-style90">đ</span></span></span></span><br class="auto-style87" />
-                <asp:Button ID="Button9" runat="server" CssClass="auto-style80" Text="Mua Ngay" />
+                <asp:Button ID="btn_OppoA52" runat="server" CssClass="auto-style80" Text="Mua Ngay" />
             </td>
             <td class="auto-style66">
                 <span class="auto-style88">Samsung Galaxy A10s<br />
                 <span class="auto-style86"><span class="auto-style89">3.190.000<span class="auto-style90">đ</span></span></span></span><br />
-                <asp:Button ID="Button10" runat="server" CssClass="auto-style80" Text="Mua Ngay" />
+                <asp:Button ID="btn_SamsungA10" runat="server" CssClass="auto-style80" Text="Mua Ngay" />
             </td>
         </tr>
         <tr>
             <td class="auto-style60">
-                <asp:ImageButton ID="ImageButton4" runat="server" Height="206px" ImageUrl="~/Image/samsung-galaxy-a30s-ngaydep.jpg" Width="211px" />
+                <asp:ImageButton ID="img_SamsungA30" runat="server" Height="206px" ImageUrl="~/Image/samsung-galaxy-a30s-ngaydep.jpg" Width="211px" />
             </td>
             <td class="auto-style56">
-                <asp:ImageButton ID="ImageButton5" runat="server" Height="209px" ImageUrl="~/Image/vivo-y19-white-400x400.jpg" Width="233px" />
+                <asp:ImageButton ID="img_Vivo19" runat="server" Height="209px" ImageUrl="~/Image/vivo-y19-white-400x400.jpg" Width="233px" />
             </td>
             <td>
-                <asp:ImageButton ID="ImageButton6" runat="server" Height="208px" ImageUrl="~/Image/xiaomi-redmi-8-64gb-red-docquyen-400x400.jpg" Width="235px" />
+                <asp:ImageButton ID="img_Xiaomi8" runat="server" Height="208px" ImageUrl="~/Image/xiaomi-redmi-8-64gb-red-docquyen-400x400.jpg" Width="235px" />
             </td>
         </tr>
         <tr>
             <td class="auto-style78">
                 <span class="auto-style88">Samsung Galaxy A30s<br />
                 <span class="auto-style86"><span class="auto-style89">5.490.000<span class="auto-style90">đ</span></span></span></span><br />
-                <asp:Button ID="Button2" runat="server" CssClass="auto-style80" Text="Mua Ngay" />
+                <asp:Button ID="btn_SamsungA30" runat="server" CssClass="auto-style80" Text="Mua Ngay" />
             </td>
             <td class="auto-style78">
                 <span class="auto-style88">Vivo Y19<br />
                 <span class="auto-style86"><span class="auto-style89">4.990.000<span class="auto-style90">đ</span></span></span></span><br />
-                <asp:Button ID="Button3" runat="server" CssClass="auto-style80" Text="Mua Ngay" />
+                <asp:Button ID="btn_Vivo19" runat="server" CssClass="auto-style80" Text="Mua Ngay" />
             </td>
             <td class="auto-style68">
                 <span class="auto-style88">Xiaomi Redmi 8<br />
                 <span class="auto-style86"><span class="auto-style89">3.590.000<span class="auto-style90">đ</span></span></span></span><br />
-                <asp:Button ID="Button4" runat="server" CssClass="auto-style80" Text="Mua Ngay" />
+                <asp:Button ID="btn_Xiaomi8" runat="server" CssClass="auto-style80" Text="Mua Ngay" />
             </td>
         </tr>
         <tr>
@@ -230,30 +230,30 @@
         </tr>
         <tr>
             <td class="auto-style60">
-                <asp:ImageButton ID="ImageButton7" runat="server" Height="215px" ImageUrl="~/Image/loa-bluetooth-esaver-s12b-2-den-avatar-2-400x400.jpg" Width="213px" />
+                <asp:ImageButton ID="img_Loa" runat="server" Height="215px" ImageUrl="~/Image/loa-bluetooth-esaver-s12b-2-den-avatar-2-400x400.jpg" Width="213px" />
             </td>
             <td class="auto-style60">
-                <asp:ImageButton ID="ImageButton8" runat="server" Height="216px" ImageUrl="~/Image/sac-dtdd-pin-sac-du-phong-19000mah-xmobile-gram-6s-trang-400x400.jpg" Width="231px" />
+                <asp:ImageButton ID="img_PinDuPhong" runat="server" Height="216px" ImageUrl="~/Image/sac-dtdd-pin-sac-du-phong-19000mah-xmobile-gram-6s-trang-400x400.jpg" Width="231px" />
             </td>
             <td>
-                <asp:ImageButton ID="ImageButton9" runat="server" Height="214px" ImageUrl="~/Image/the-nho-microsd-32gb-lexar-class-10-uhs-i-1-400x400.jpg" Width="233px" />
+                <asp:ImageButton ID="img_TheNho" runat="server" Height="214px" ImageUrl="~/Image/the-nho-microsd-32gb-lexar-class-10-uhs-i-1-400x400.jpg" Width="233px" />
             </td>
         </tr>
         <tr>
             <td class="auto-style74">
                 <span class="auto-style93">Loa Bluetooth eSaver S12B-2 Đen</span><span class="auto-style88"><br />
                 <span class="auto-style86"><span class="auto-style89">512.000<span class="auto-style90">đ</span></span></span></span><br />
-                <asp:Button ID="Button5" runat="server" CssClass="auto-style80" Text="Mua Ngay" />
+                <asp:Button ID="btn_Loa" runat="server" CssClass="auto-style80" Text="Mua Ngay" />
             </td>
             <td class="auto-style73">
                 <span class="auto-style93">Pin sạc dự phòng 19.000 mAh Xmobile Gram 6s Trắng</span><span class="auto-style91"><br />
                 </span>1<span class="auto-style88"><span class="auto-style86"><span class="auto-style89">85.000<span class="auto-style90">đ</span></span></span></span><br />
-                <asp:Button ID="Button6" runat="server" CssClass="auto-style80" Text="Mua Ngay" />
+                <asp:Button ID="btn_PinDuPhong" runat="server" CssClass="auto-style80" Text="Mua Ngay" />
             </td>
             <td class="auto-style75">
-                <span class="auto-style92">Thể nhớ MicroSD 32 GB Lexar class 10 UHS-I</span><span class="auto-style88"><br />
+                <span class="auto-style92">Thẻ nhớ MicroSD 32 GB Lexar class 10 UHS-I</span><span class="auto-style88"><br />
                 <span class="auto-style86"><span class="auto-style89">180.000<span class="auto-style90">đ</span></span></span></span><br />
-                <asp:Button ID="Button7" runat="server" CssClass="auto-style80" Text="Mua Ngay" />
+                <asp:Button ID="btn_TheNho" runat="server" CssClass="auto-style80" Text="Mua Ngay" />
             </td>
         </tr>
         <tr>

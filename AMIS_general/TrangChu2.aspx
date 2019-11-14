@@ -171,58 +171,58 @@
     <table class="auto-style52">
         <tr>
             <td class="auto-style63">
-                <asp:ImageButton ID="ImageButton1" runat="server" Height="221px" ImageUrl="~/Image/New folder/oppo-reno2-600x600.jpg" Width="230px" />
+                <asp:ImageButton ID="img_Oppo2" runat="server" Height="221px" ImageUrl="~/Image/New folder/oppo-reno2-600x600.jpg" Width="230px" />
             </td>
             <td class="auto-style56">
-                <asp:ImageButton ID="ImageButton2" runat="server" Height="222px" ImageUrl="~/Image/New folder/oppo-reno-10x-zoom-edition-black-600x600.jpg" Width="234px" />
+                <asp:ImageButton ID="img_Oppo10" runat="server" Height="222px" ImageUrl="~/Image/New folder/oppo-reno-10x-zoom-edition-black-600x600.jpg" Width="234px" />
             </td>
             <td>
-                <asp:ImageButton ID="ImageButton3" runat="server" Height="219px" ImageUrl="~/Image/New folder/nokia-81-blue-18thangbh-600x600.jpg" Width="239px" />
+                <asp:ImageButton ID="img_Nokia81" runat="server" Height="219px" ImageUrl="~/Image/New folder/nokia-81-blue-18thangbh-600x600.jpg" Width="239px" />
             </td>
         </tr>
         <tr>
             <td class="auto-style79">
                 <span class="auto-style84">OPPO Ren<span class="auto-style86">o2<br />
                 </span></span><span class="auto-style86"><span class="auto-style89">14.990.000<span class="auto-style90">đ</span></span></span><br />
-                <asp:Button ID="Button8" runat="server" CssClass="auto-style80" Text="Mua Ngay" />
+                <asp:Button ID="btn_Oppo2" runat="server" CssClass="auto-style80" Text="Mua Ngay" />
             </td>
             <td class="auto-style79">
                 <span class="auto-style88">Oppo Reno 10x<br />
                 <span class="auto-style86"><span class="auto-style89">16.690.000<span class="auto-style90">đ</span></span></span></span><br class="auto-style87" />
-                <asp:Button ID="Button9" runat="server" CssClass="auto-style80" Text="Mua Ngay" />
+                <asp:Button ID="btn_Oppo10" runat="server" CssClass="auto-style80" Text="Mua Ngay" />
             </td>
             <td class="auto-style66">
                 <span class="auto-style88">Nokia 8.1<br />
                 <span class="auto-style86"><span class="auto-style89">6.990.000<span class="auto-style90">đ</span></span></span></span><br />
-                <asp:Button ID="Button10" runat="server" CssClass="auto-style80" Text="Mua Ngay" />
+                <asp:Button ID="btn_Nokia81" runat="server" CssClass="auto-style80" Text="Mua Ngay" />
             </td>
         </tr>
         <tr>
             <td class="auto-style60">
-                <asp:ImageButton ID="ImageButton4" runat="server" Height="218px" ImageUrl="~/Image/New folder/nokia-72-black-600x600.jpg" Width="231px" />
+                <asp:ImageButton ID="img_Nokia72" runat="server" Height="218px" ImageUrl="~/Image/New folder/nokia-72-black-600x600.jpg" Width="231px" />
             </td>
             <td class="auto-style56">
-                <asp:ImageButton ID="ImageButton5" runat="server" Height="217px" ImageUrl="~/Image/New folder/nokia-61-plus-2-600x600.jpg" Width="234px" />
+                <asp:ImageButton ID="img_Nokia61" runat="server" Height="217px" ImageUrl="~/Image/New folder/nokia-61-plus-2-600x600.jpg" Width="234px" />
             </td>
             <td>
-                <asp:ImageButton ID="ImageButton6" runat="server" Height="214px" ImageUrl="~/Image/New folder/nokia-51-plus-black-18thangbh-600x600.jpg" Width="235px" />
+                <asp:ImageButton ID="img_Nokia51" runat="server" Height="214px" ImageUrl="~/Image/New folder/nokia-51-plus-black-18thangbh-600x600.jpg" Width="235px" />
             </td>
         </tr>
         <tr>
             <td class="auto-style78">
                 <span class="auto-style88">Nokia 7.2<br />
                 <span class="auto-style86"><span class="auto-style89">6.490.000<span class="auto-style90">đ</span></span></span></span><br />
-                <asp:Button ID="Button2" runat="server" CssClass="auto-style80" Text="Mua Ngay" />
+                <asp:Button ID="btn_Nokia72" runat="server" CssClass="auto-style80" Text="Mua Ngay" />
             </td>
             <td class="auto-style78">
                 <span class="auto-style88">Nokia 6.1<br />
                 <span class="auto-style86"><span class="auto-style89">3.990.000<span class="auto-style90">đ</span></span></span></span><br />
-                <asp:Button ID="Button3" runat="server" CssClass="auto-style80" Text="Mua Ngay" />
+                <asp:Button ID="btn_Nokia61" runat="server" CssClass="auto-style80" Text="Mua Ngay" />
             </td>
             <td class="auto-style68">
                 <span class="auto-style88">Nokia 5.1 plus<br />
                 <span class="auto-style86"><span class="auto-style89">3.590.000<span class="auto-style90">đ</span></span></span></span><br />
-                <asp:Button ID="Button4" runat="server" CssClass="auto-style80" Text="Mua Ngay" />
+                <asp:Button ID="btn_Nokia51" runat="server" CssClass="auto-style80" Text="Mua Ngay" />
             </td>
         </tr>
         <tr>

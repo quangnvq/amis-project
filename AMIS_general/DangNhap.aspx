@@ -50,7 +50,7 @@
         <tr>
             <td class="auto-style49">&nbsp;</td>
             <td>
-                <asp:Button ID="btn_DangNhap" runat="server" OnClick="btn_DangNhap_Click" Text="Đăng nhập" />
+                <asp:Button ID="btn_DangNhap" runat="server" Text="Đăng nhập" />
             </td>
         </tr>
         <tr>
