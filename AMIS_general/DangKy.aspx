@@ -45,30 +45,28 @@
             </td>
         </tr>
         <tr>
-            <td class="auto-style50">Email</td>
+            <td class="auto-style50">Tên đăng nhập</td>
             <td colspan="2">
-                <asp:TextBox ID="txt_Email" runat="server" TextMode="Email" Width="242px"></asp:TextBox>
+                <asp:TextBox ID="txt_TenDangNhap" runat="server" Width="244px"></asp:TextBox>
             </td>
         </tr>
         <tr>
             <td class="auto-style50">Mật khẩu</td>
             <td colspan="2">
-                <asp:TextBox ID="txt_MatKhau" runat="server" TextMode="Password" Width="240px"></asp:TextBox>
+                <asp:TextBox ID="txt_MatKhau" runat="server" TextMode="Password" Width="245px"></asp:TextBox>
             </td>
         </tr>
         <tr>
-            <td class="auto-style50">Giới tính</td>
+            <td class="auto-style50">Email</td>
             <td>
-                <asp:CheckBox ID="ckb_Nam" runat="server" Text="Nam" />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <asp:CheckBox ID="ckb_Nu" runat="server" Text="Nữ" />
+                &nbsp;<asp:TextBox ID="txt_Email" runat="server" TextMode="Email" Width="244px"></asp:TextBox>
             </td>
             <td>&nbsp;</td>
         </tr>
         <tr>
-            <td class="auto-style50">Ngày sinh</td>
+            <td class="auto-style50">Địa chỉ</td>
             <td colspan="2">
-                <asp:TextBox ID="txt_NgaySinh" runat="server" TextMode="Date" Width="247px"></asp:TextBox>
+                <asp:TextBox ID="txt_DiaChi" runat="server" Width="246px"></asp:TextBox>
             </td>
         </tr>
         <tr>
@@ -80,7 +78,7 @@
         <tr>
             <td class="auto-style49" colspan="3">
                 <asp:Button ID="btn_DangKy" runat="server" style="text-align: center" Text="Đăng ký" />
-&nbsp;</td>
+&nbsp;&nbsp; </td>
         </tr>
     </table>
 </asp:Content>
