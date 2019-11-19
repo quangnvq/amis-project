@@ -29,16 +29,17 @@
         <asp:TextBox ID="txt_GiamGia" runat="server" Width="205px"></asp:TextBox>
         <br />
         <strong>Phương thức thanh toán&nbsp;&nbsp;&nbsp; </strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:CheckBoxList ID="CheckBoxList1" runat="server">
+        <asp:DropDownList ID="DropDownList2" runat="server">
             <asp:ListItem>Thanh toán khi nhận hàng</asp:ListItem>
-            <asp:ListItem>Thẻ tín dụng/Ghi nợ</asp:ListItem>
-        </asp:CheckBoxList>
+            <asp:ListItem>Thẻ tín dụng/ Ghi nợ</asp:ListItem>
+        </asp:DropDownList>
     </p>
     <p>
         <strong>Tổng tiền thanh toán&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong>
         <asp:Label ID="lbl_TongThanhToan" runat="server"></asp:Label>
     </p>
     <p>
+        <asp:Button ID="btn_DatHang" runat="server" style="color: #FFFFCC; background-color: #FF0000" Text="Đặt hàng" />
     </p>
     <p>
     </p>
