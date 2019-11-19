@@ -59,7 +59,7 @@
         <tr>
             <td class="auto-style50">Email</td>
             <td>
-                &nbsp;<asp:TextBox ID="txt_Email" runat="server" TextMode="Email" Width="244px"></asp:TextBox>
+                <asp:TextBox ID="txt_Email" runat="server" TextMode="Email" Width="244px" style="margin-left: 0px"></asp:TextBox>
             </td>
             <td>&nbsp;</td>
         </tr>
