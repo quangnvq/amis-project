@@ -8,7 +8,7 @@
     <p style="text-align: center; font-weight: 700">
         Kết quả tìm kiếm của bạn như sau</p>
     <p style="text-align: center; font-weight: 700">
-        <asp:GridView ID="GridView1" runat="server" AllowPaging="True" AllowSorting="True" AutoGenerateColumns="False" DataKeyNames="ProductID" DataSourceID="SqlDataSource1" OnSelectedIndexChanged="GridView1_SelectedIndexChanged1" style="margin-right: 369px">
+        <asp:GridView ID="GridView1" runat="server" AllowPaging="True" AllowSorting="True" AutoGenerateColumns="False" DataKeyNames="ProductID" DataSourceID="SqlDataSource1" OnSelectedIndexChanged="GridView1_SelectedIndexChanged1" style="margin-right: 369px" Width="293px">
             <Columns>
                 <asp:CommandField ShowSelectButton="True" />
                 <asp:BoundField DataField="ProductID" HeaderText="Số thứ tự" ReadOnly="True" SortExpression="ProductID" />
