@@ -36,15 +36,15 @@
             <td class="auto-style48" colspan="2">Đăng Nhập&nbsp;</td>
         </tr>
         <tr>
-            <td class="auto-style50">Email</td>
+            <td class="auto-style49">Tên đăng nhập</td>
             <td class="auto-style51">
-                <asp:TextBox ID="txt_Email" runat="server" Width="216px"></asp:TextBox>
+                <asp:TextBox ID="txt_TenDangNhap" runat="server" Width="216px" placeholder="Nhập tên đăng nhập"></asp:TextBox>
             </td>
         </tr>
         <tr>
             <td class="auto-style49">Mật khẩu</td>
             <td>
-                <asp:TextBox ID="txt_MatKhau" runat="server" TextMode="Password" Width="216px"></asp:TextBox>
+                <asp:TextBox ID="txt_MatKhau" runat="server" TextMode="Password" Width="216px" placeholder="Nhập mật khẩu"></asp:TextBox>
             </td>
         </tr>
         <tr>
