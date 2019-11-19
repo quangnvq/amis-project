@@ -8,25 +8,23 @@
     <p>
         <strong>Địa chỉ nhận hàng</strong></p>
     <p>
-        <asp:TextBox ID="txt_NhanHang" runat="server" Height="54px" Width="567px"></asp:TextBox>
-    </p>
-    <p>
-        <asp:GridView ID="grv_giohang" runat="server" AutoGenerateColumns="False" DataKeyNames="MaSanPham,MaDonHang" DataSourceID="SqlDataSource1" style="text-align: center">
+        <asp:GridView ID="grv_DiaChi" runat="server" AutoGenerateColumns="False" DataSourceID="SqlDataSource2">
             <Columns>
-                <asp:BoundField DataField="MaSanPham" HeaderText="MaSanPham" ReadOnly="True" SortExpression="MaSanPham" />
-                <asp:BoundField DataField="SoLuong" HeaderText="SoLuong" SortExpression="SoLuong" />
-                <asp:BoundField DataField="MaDonHang" HeaderText="MaDonHang" ReadOnly="True" SortExpression="MaDonHang" />
+                <asp:BoundField DataField="Address" HeaderText="Address" SortExpression="Address" />
             </Columns>
         </asp:GridView>
-        <asp:SqlDataSource ID="SqlDataSource1" runat="server"></asp:SqlDataSource>
+        <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:AMIS_phoneConnectionString3 %>" SelectCommand="SELECT [Address] FROM [Customers]"></asp:SqlDataSource>
     </p>
     <p>
-        <strong>Tổng số tiền:&nbsp;&nbsp; </strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:Label ID="lbl_TongTien" runat="server"></asp:Label>
-    </p>
-    <p>
-        <strong>Mã giảm giá(nếu có)&nbsp; </strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:TextBox ID="txt_GiamGia" runat="server" Width="205px"></asp:TextBox>
+        <asp:GridView ID="grv_gioHang" runat="server" AutoGenerateColumns="False" DataKeyNames="OrderID,ProductID" DataSourceID="SqlDataSource1">
+            <Columns>
+                <asp:BoundField DataField="OrderID" HeaderText="OrderID" ReadOnly="True" SortExpression="OrderID" />
+                <asp:BoundField DataField="ProductID" HeaderText="ProductID" ReadOnly="True" SortExpression="ProductID" />
+                <asp:BoundField DataField="OrderPrice" HeaderText="OrderPrice" SortExpression="OrderPrice" />
+                <asp:BoundField DataField="Quantity" HeaderText="Quantity" SortExpression="Quantity" />
+            </Columns>
+        </asp:GridView>
+        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:AMIS_phoneConnectionString2 %>" SelectCommand="SELECT * FROM [OrdersDetails]"></asp:SqlDataSource>
         <br />
         <strong>Phương thức thanh toán&nbsp;&nbsp;&nbsp; </strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <asp:DropDownList ID="DropDownList2" runat="server">
