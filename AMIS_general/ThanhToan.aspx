@@ -18,7 +18,7 @@
                 <asp:BoundField DataField="MaDonHang" HeaderText="MaDonHang" ReadOnly="True" SortExpression="MaDonHang" />
             </Columns>
         </asp:GridView>
-        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:E:\MUSIC\HOCTAP\TAI LIEU CN WEB\WEBSITE16\WEBSITE16\APP_DATA\WEDMAYTINH.MDFConnectionString %>" SelectCommand="SELECT * FROM [ChiTietDonHang]"></asp:SqlDataSource>
+        <asp:SqlDataSource ID="SqlDataSource1" runat="server"></asp:SqlDataSource>
     </p>
     <p>
         <strong>Tổng số tiền:&nbsp;&nbsp; </strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
