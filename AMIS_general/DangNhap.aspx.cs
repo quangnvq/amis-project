@@ -11,4 +11,8 @@ public partial class DangNhap : System.Web.UI.Page
     {
 
     }
+    protected void txt_TenDangNhap_TextChanged(object sender, EventArgs e)
+    {
+
+    }
 }
