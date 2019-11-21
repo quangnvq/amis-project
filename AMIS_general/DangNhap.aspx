@@ -10,10 +10,6 @@
             text-align: center;
             font-size: large;
         }
-        .auto-style50 {
-            width: 144px;
-            height: 26px;
-        }
         .auto-style51 {
             height: 26px;
         }
@@ -38,7 +34,7 @@
         <tr>
             <td class="auto-style49">Tên đăng nhập</td>
             <td class="auto-style51">
-                <asp:TextBox ID="txt_TenDangNhap" runat="server" Width="216px" placeholder="Nhập tên đăng nhập"></asp:TextBox>
+                <asp:TextBox ID="txt_TenDangNhap" runat="server" Width="216px" placeholder="Nhập tên đăng nhập" OnTextChanged="txt_TenDangNhap_TextChanged"></asp:TextBox>
             </td>
         </tr>
         <tr>
@@ -50,12 +46,14 @@
         <tr>
             <td class="auto-style49">&nbsp;</td>
             <td>
-                <asp:Button ID="btn_DangNhap" runat="server" Text="Đăng nhập" />
+                <asp:Button ID="btn_DangNhap" runat="server" Text="Đăng nhập" OnClick="btn_DangNhap_Click" />
             </td>
         </tr>
         <tr>
             <td class="auto-style49">&nbsp;</td>
-            <td>&nbsp;</td>
+            <td>Bạn chưa có tài khoản, xin mời
+                <asp:Button ID="btn_DangKy" runat="server" PostBackUrl="~/DangKy.aspx" Text="đăng ký" />
+            </td>
         </tr>
         <tr>
             <td class="auto-style49">&nbsp;</td>
