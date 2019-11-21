@@ -17,7 +17,6 @@ public partial class DangKy : System.Web.UI.Page
         SqlDS.ConnectionString = @"Data Source=QUYNH\QUYNH;Initial Catalog=AMIS_phone;User ID=sa;Password=quynh123";
         SqlDS.SelectCommandType = SqlDataSourceCommandType.StoredProcedure;
     }
-  
     protected void btn_DangKy_Click(object sender, EventArgs e)
     {
         
@@ -31,8 +30,5 @@ public partial class DangKy : System.Web.UI.Page
         SqlDS.InsertParameters.Add("Email", TypeCode.String, this.txt_Email.Text);
         SqlDS.Insert();
         this.lbl_ThongBao.Text = "Đăng ký thành công!!!";
-    
-       
-    
     }
 }
