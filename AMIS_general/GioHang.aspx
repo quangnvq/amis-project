@@ -8,10 +8,6 @@
         .auto-style48 {
             height: 28px;
         }
-        .auto-style49 {
-            width: 94px;
-            color: #666666;
-        }
         .auto-style52 {
             width: 150px;
             color: #666666;
@@ -26,10 +22,6 @@
         }
         .auto-style57 {
             width: 80px;
-            color: #666666;
-        }
-        .auto-style58 {
-            width: 77px;
             color: #666666;
         }
         .auto-style59 {
@@ -56,20 +48,28 @@
             color: #666666;
             height: 23px;
         }
-        .auto-style64 {
-            width: 77px;
-            color: #666666;
-            height: 23px;
-        }
-        .auto-style65 {
-            width: 94px;
-            color: #666666;
-            height: 23px;
-        }
         .auto-style66 {
             width: 168px;
             color: #666666;
             height: 23px;
+        }
+        .auto-style67 {
+            width: 72px;
+            color: #666666;
+            height: 23px;
+        }
+        .auto-style68 {
+            width: 51px;
+            color: #666666;
+            height: 23px;
+        }
+        .auto-style69 {
+            width: 72px;
+            color: #666666;
+        }
+        .auto-style70 {
+            width: 51px;
+            color: #666666;
         }
     </style>
 </asp:Content>
@@ -112,8 +112,8 @@
             <td class="auto-style61">Tên sản phẩm</td>
             <td class="auto-style62">Danh mục</td>
             <td class="auto-style63">Giá tiền </td>
-            <td class="auto-style64">Số lượng</td>
-            <td class="auto-style65">Thành tiền</td>
+            <td class="auto-style67">Số lượng</td>
+            <td class="auto-style68">Thành tiền</td>
             <td class="auto-style66">Chức năng</td>
         </tr>
         <tr>
@@ -121,8 +121,8 @@
             <td class="auto-style61"></td>
             <td class="auto-style62"></td>
             <td class="auto-style63"></td>
-            <td class="auto-style64"></td>
-            <td class="auto-style65"></td>
+            <td class="auto-style67"></td>
+            <td class="auto-style68"></td>
             <td class="auto-style66"></td>
         </tr>
         <tr>
@@ -130,8 +130,8 @@
             <td class="auto-style54">&nbsp;</td>
             <td class="auto-style56">&nbsp;</td>
             <td class="auto-style57">&nbsp;</td>
-            <td class="auto-style58">&nbsp;</td>
-            <td class="auto-style49">&nbsp;</td>
+            <td class="auto-style69">&nbsp;</td>
+            <td class="auto-style70">&nbsp;</td>
             <td class="auto-style59">&nbsp;</td>
         </tr>
         <tr>
@@ -139,8 +139,8 @@
             <td class="auto-style54">&nbsp;</td>
             <td class="auto-style56">&nbsp;</td>
             <td class="auto-style57">&nbsp;</td>
-            <td class="auto-style58">&nbsp;</td>
-            <td class="auto-style49">&nbsp;</td>
+            <td class="auto-style69">&nbsp;</td>
+            <td class="auto-style70">&nbsp;</td>
             <td class="auto-style59">&nbsp;</td>
         </tr>
         <tr>
@@ -148,8 +148,8 @@
             <td class="auto-style54">&nbsp;</td>
             <td class="auto-style56">&nbsp;</td>
             <td class="auto-style57">&nbsp;</td>
-            <td class="auto-style58">&nbsp;</td>
-            <td class="auto-style49">&nbsp;</td>
+            <td class="auto-style69">&nbsp;</td>
+            <td class="auto-style70">&nbsp;</td>
             <td class="auto-style59">&nbsp;</td>
         </tr>
     </table>
