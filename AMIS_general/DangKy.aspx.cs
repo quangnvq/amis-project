@@ -30,6 +30,10 @@ public partial class DangKy : System.Web.UI.Page
         SqlDS.InsertParameters.Add("Address", TypeCode.String, this.txt_DiaChi.Text);
         SqlDS.InsertParameters.Add("Email", TypeCode.String, this.txt_Email.Text);
         SqlDS.Insert();
+
         this.lbl_ThongBao.Text = "Bạn đã đăng ký thành công!!!"; 
+
+        this.lbl_ThongBao.Text = "Đăng ký thành công!!!";
+
     }
 }
