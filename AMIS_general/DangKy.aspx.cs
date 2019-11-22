@@ -14,10 +14,10 @@ public partial class DangKy : System.Web.UI.Page
     }
     private void KhoiTao()
     {
-        SqlDS.ConnectionString = @"Data Source=QUYNH\QUYNH;Initial Catalog=AMIS_phone;User ID=sa;Password=quynh123";
+        SqlDS.ConnectionString = "Data Source=DESKTOP-PIKNVLI\\SQLEXPRESS;Initial Catalog=AMIS_phone;"
+            + "User ID=sa; Password =123456";
         SqlDS.SelectCommandType = SqlDataSourceCommandType.StoredProcedure;
     }
-  
     protected void btn_DangKy_Click(object sender, EventArgs e)
     {
         
@@ -30,9 +30,6 @@ public partial class DangKy : System.Web.UI.Page
         SqlDS.InsertParameters.Add("Address", TypeCode.String, this.txt_DiaChi.Text);
         SqlDS.InsertParameters.Add("Email", TypeCode.String, this.txt_Email.Text);
         SqlDS.Insert();
-        this.lbl_ThongBao.Text = "Đăng ký thành công!!!";
-    
-       
-    
+        this.lbl_ThongBao.Text = "Bạn đã đăng ký thành công!!!"; 
     }
 }

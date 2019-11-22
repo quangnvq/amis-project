@@ -89,10 +89,10 @@
         <tr>
             <td class="auto-style49">&nbsp;</td>
             <td>
-                <asp:Button ID="Button5" runat="server" style="background-color: #FF9900" Text="Đặt mua" />
+                <asp:Button ID="Button5" runat="server" style="background-color: #FF9900" Text="Đặt mua" PostBackUrl="~/ThanhToan.aspx" />
             </td>
             <td>
-                <asp:Button ID="Button6" runat="server" style="background-color: #FF9900" Text="Đặt mua" />
+                <asp:Button ID="Button6" runat="server" style="background-color: #FF9900" Text="Đặt mua" PostBackUrl="~/GioHang.aspx" />
             </td>
         </tr>
         <tr>

@@ -25,45 +25,14 @@
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
     <table align="center" class="auto-style47">
         <tr>
-            <td colspan="2" style="text-align: center">
-                <img alt="" src="" style="height: 47px; width: 49px" /></td>
-        </tr>
-        <tr>
-            <td class="auto-style48" colspan="2">Đăng Nhập&nbsp;</td>
-        </tr>
-        <tr>
-            <td class="auto-style49">Tên đăng nhập</td>
-            <td class="auto-style51">
-                <asp:TextBox ID="txt_TenDangNhap" runat="server" Width="216px" placeholder="Nhập tên đăng nhập" OnTextChanged="txt_TenDangNhap_TextChanged"></asp:TextBox>
+            <td style="text-align: center">
+                <asp:Login ID="Login" runat="server" DestinationPageUrl="~/TrangChu/TrangChu.aspx" FailureText="Bạn đăng nhập không thành công, Vui lòng kiểm tra lại" HelpPageText="Quên mật khẩu" HelpPageUrl="~/DangKy.aspx" InstructionText="Vui lòng nhập tài khoản và mật khẩu" LoginButtonText="Đăng Nhập" PasswordLabelText="Mật khẩu:" RememberMeText="Nhớ mật khẩu" TitleText="Đăng nhập" UserNameLabelText="Tài khoản:" Width="375px" OnAuthenticate="Login_Authenticate" BackColor="#3399FF" BorderColor="#FFCC99" ForeColor="#CCFF33" Height="210px">
+                    <TitleTextStyle BackColor="#FF6600" BorderColor="#999999" />
+                </asp:Login>
+               
             </td>
         </tr>
-        <tr>
-            <td class="auto-style49">Mật khẩu</td>
-            <td>
-                <asp:TextBox ID="txt_MatKhau" runat="server" TextMode="Password" Width="216px" placeholder="Nhập mật khẩu"></asp:TextBox>
-            </td>
-        </tr>
-        <tr>
-            <td class="auto-style49">&nbsp;</td>
-            <td>
-                <asp:Button ID="btn_DangNhap" runat="server" Text="Đăng nhập" OnClick="btn_DangNhap_Click" />
-            </td>
-        </tr>
-        <tr>
-            <td class="auto-style49">&nbsp;</td>
-            <td>Bạn chưa có tài khoản, xin mời
-                <asp:Button ID="btn_DangKy" runat="server" PostBackUrl="~/DangKy.aspx" Text="đăng ký" />
-            </td>
-        </tr>
-        <tr>
-            <td class="auto-style49">&nbsp;</td>
-            <td>&nbsp;</td>
-        </tr>
-        <tr>
-            <td class="auto-style49">&nbsp;</td>
-            <td>&nbsp;</td>
-        </tr>
-    </table>
+        </table>
 </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="ContentPlaceHolder2" Runat="Server">
     <p>

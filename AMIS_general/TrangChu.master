@@ -60,13 +60,13 @@
             width: 123px;
         }
         .auto-style20 {
-            width: 185px;
+            width: 143px;
             text-align: center;
             background-color: #0066FF;
         }
         .auto-style21 {
             height: 23px;
-            width: 185px;
+            width: 143px;
         }
         .auto-style22 {
             text-align: left;
@@ -130,22 +130,22 @@ p.MsoNoSpacing
         }
         .auto-style34 {
             color: #FFFFFF;
+            text-decoration: none;
+            font-size: medium;
         }
         .auto-style35 {
             color: #CCFFFF;
+            text-decoration: none;
+            font-size: medium;
         }
         .auto-style36 {
             text-align: center;
             background-color: #0066FF;
         }
-        .auto-style37 {
-            color: #CCFFCC;
-        }
         .auto-style38 {
             color: #CCFFD5;
-        }
-        .auto-style39 {
-            color: #FFCC00;
+            text-decoration: none;
+            font-size: large;
         }
         .auto-style43 {
             color: rgb(102, 102, 102);
@@ -154,9 +154,10 @@ p.MsoNoSpacing
             height: 416px;
             background-color: #FFCC66;
         }
-        .auto-style46 {
-            width: 190px;
-            height: 147px;
+        .auto-style48 {
+            color: #CCFFCC;
+            text-decoration: none;
+            font-size: large;
         }
     </style>
 </head>
@@ -165,7 +166,8 @@ p.MsoNoSpacing
         <table class="auto-style1">
             <tr>
                 <td class="auto-style8">
-                    <img alt="" class="auto-style46" longdesc="http://localhost:2422/TrangChu.master" src="Image/Logo.jpg" /></td>
+                    <asp:Image ID="Image1" runat="server" Height="186px" ImageUrl="~/Image/Logo.jpg" Width="220px" />
+                </td>
                 <td class="auto-style33" colspan="5"><!--[if gte vml 1]><v:shapetype id="_x0000_t202"
  coordsize="21600,21600" o:spt="202" path="m,l,21600r21600,l21600,xe">
  <v:stroke joinstyle="miter" xmlns:v="urn:schemas-microsoft-com:vml"/>
@@ -379,25 +381,22 @@ cmVscy9kcmF3aW5nMS54bWwucmVsc1BLBQYAAAAABQAFAGcBAAC3DgAAAAA=
             </tr>
             <tr>
                 <td class="auto-style36">
-                    <asp:HyperLink ID="HyperLink3" runat="server" CssClass="auto-style37" NavigateUrl="~/TrangChu.aspx">Trang chủ</asp:HyperLink>
+                    <asp:HyperLink ID="HyperLink3" runat="server" CssClass="auto-style48" NavigateUrl="~/TrangChu1/TrangChu.aspx">Trang chủ</asp:HyperLink>
                 </td>
                 <td class="auto-style30">
-                    <asp:HyperLink ID="HyperLink4" runat="server" CssClass="auto-style37" NavigateUrl="~/SanPham.aspx">Sản phẩm</asp:HyperLink>
+                    <asp:HyperLink ID="HyperLink4" runat="server" CssClass="auto-style48" NavigateUrl="~/SanPham/Sanpham.aspx">Sản phẩm</asp:HyperLink>
                 </td>
                 <td class="auto-style14">
-                    <asp:HyperLink ID="HyperLink5" runat="server" CssClass="auto-style37" NavigateUrl="~/PhanHoi.aspx">Phản hồi</asp:HyperLink>
+                    <asp:HyperLink ID="HyperLink5" runat="server" CssClass="auto-style48" NavigateUrl="~/PhanHoi.aspx">Phản hồi</asp:HyperLink>
                 </td>
                 <td class="auto-style18">
-                    <asp:HyperLink ID="HyperLink6" runat="server" CssClass="auto-style37" NavigateUrl="~/LienHe.aspx">Liên hệ</asp:HyperLink>
+                    <asp:HyperLink ID="HyperLink6" runat="server" CssClass="auto-style48" NavigateUrl="~/LienHe.aspx">Liên hệ</asp:HyperLink>
                 </td>
                 <td class="auto-style20">
                     <asp:HyperLink ID="HyperLink7" runat="server" CssClass="auto-style38" NavigateUrl="~/GioHang.aspx">Giỏ hàng</asp:HyperLink>
                 </td>
-                <td class="auto-style36">Tìm kiếm:
-                    <asp:TextBox ID="TextBox1" runat="server" Height="19px" Width="111px"></asp:TextBox>
-                    <asp:DropDownList ID="DropDownList1" runat="server" Height="24px" Width="72px">
-                    </asp:DropDownList>
-                    <asp:Button ID="Button1" runat="server" Text="Tìm kiếm" CssClass="auto-style39" />
+                <td class="auto-style36">
+                    <asp:HyperLink ID="HyperLink8" runat="server" CssClass="auto-style38" NavigateUrl="~/TimKiem.aspx">Tìm kiếm</asp:HyperLink>
                 </td>
             </tr>
             <tr>

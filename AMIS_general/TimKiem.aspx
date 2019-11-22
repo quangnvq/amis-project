@@ -1,31 +1,37 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/TrangChu.master" AutoEventWireup="true" CodeFile="TimKiem.aspx.cs" Inherits="TimKiem" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+    <style type="text/css">
+    .auto-style49 {
+        text-align: center;
+    }
+    .auto-style50 {
+        margin-left: 126px;
+    }
+        .auto-style51 {
+            color: #FF0000;
+        }
+    </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder3" Runat="Server">
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
     <p style="text-align: center; font-weight: 700">
+        &nbsp;Nhập tên sản phẩm:
+                    <asp:TextBox ID="txt_TimKiem" runat="server" Height="19px" Width="111px"></asp:TextBox>
+                    <asp:Button ID="btn_TimKiem" runat="server" Text="Tìm kiếm" CssClass="auto-style39" OnClick="btn_TimKiem_Click" />
+                </p>
+<p style="text-align: center; font-weight: 700">
         Kết quả tìm kiếm của bạn như sau</p>
     <p style="text-align: center; font-weight: 700">
-        <asp:GridView ID="GridView1" runat="server" AllowPaging="True" AllowSorting="True" AutoGenerateColumns="False" DataKeyNames="ProductID" DataSourceID="SqlDataSource1" OnSelectedIndexChanged="GridView1_SelectedIndexChanged1" style="margin-right: 5px; font-size: medium; text-align: right;" Width="650px" BackColor="White" BorderColor="#3366CC" BorderStyle="None" BorderWidth="1px" CellPadding="4" Font-Bold="False" Height="374px" HorizontalAlign="Center">
+        <asp:Label ID="lbl_ThongBao" runat="server" CssClass="auto-style51"></asp:Label>
+    </p>
+    <p style="font-weight: 700" class="auto-style49">
+        <asp:GridView ID="grv_SanPham" runat="server" CssClass="auto-style50">
             <Columns>
-                <asp:CommandField SelectText="Xem" ShowSelectButton="True" />
-                <asp:BoundField DataField="ProductID" HeaderText="Số thứ tự" ReadOnly="True" SortExpression="ProductID" />
-                <asp:BoundField DataField="ProductName" HeaderText="Tên sản phẩm" SortExpression="ProductName" />
-                <asp:BoundField DataField="Price" HeaderText="Giá" SortExpression="Price" />
+                <asp:CommandField SelectText="Xem SP" ShowSelectButton="True" />
             </Columns>
-            <FooterStyle BackColor="#99CCCC" ForeColor="#003399" />
-            <HeaderStyle BackColor="#003399" Font-Bold="True" ForeColor="#CCCCFF" />
-            <PagerStyle BackColor="#99CCCC" ForeColor="#003399" HorizontalAlign="Left" />
-            <RowStyle BackColor="White" ForeColor="#003399" />
-            <SelectedRowStyle BackColor="#009999" Font-Bold="True" ForeColor="#CCFF99" />
-            <SortedAscendingCellStyle BackColor="#EDF6F6" />
-            <SortedAscendingHeaderStyle BackColor="#0D4AC4" />
-            <SortedDescendingCellStyle BackColor="#D6DFDF" />
-            <SortedDescendingHeaderStyle BackColor="#002876" />
         </asp:GridView>
-        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:AMIS_phoneConnectionString %>" SelectCommand="SELECT * FROM [Products]"></asp:SqlDataSource>
     </p>
     </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="ContentPlaceHolder2" Runat="Server">
