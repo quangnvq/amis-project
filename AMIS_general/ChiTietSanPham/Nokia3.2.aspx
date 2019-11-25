@@ -44,7 +44,7 @@
     <p>
         <span class="auto-style86"><span class="auto-style89">NGỪNG KINH DOANH</span></span></p>
     <p>
-                <asp:HyperLink ID="HyperLink8" runat="server" NavigateUrl="~/SanPham_Nokia1.aspx">Quay lại</asp:HyperLink>
+                <asp:HyperLink ID="HyperLink8" runat="server" NavigateUrl="~/SanPham/SanPham_Nokia1.aspx">Quay lại</asp:HyperLink>
             </p>
 </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="ContentPlaceHolder2" Runat="Server">

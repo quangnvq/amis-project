@@ -89,7 +89,7 @@
     <br />
     <br />
     <br />
-                <asp:HyperLink ID="HyperLink8" runat="server" NavigateUrl="~/SanPham_Honor.aspx" style="font-size: x-large">Quay lại</asp:HyperLink>
+                <asp:HyperLink ID="HyperLink8" runat="server" NavigateUrl="~/SanPham/SanPham_Honor.aspx" style="font-size: x-large">Quay lại</asp:HyperLink>
             <br />
 </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="ContentPlaceHolder2" Runat="Server">

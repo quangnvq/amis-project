@@ -214,13 +214,13 @@
     </tr>
     <tr>
         <td class="auto-style78"><span class="auto-style88">Samsung Galaxy A30s<br /><span class="auto-style86"><span class="auto-style89">5.490.000<span class="auto-style90">đ</span></span></span></span><br />
-            <asp:Button ID="btn_SamsungA30" runat="server" CssClass="auto-style80" Text="Mua Ngay" />
+            <asp:Button ID="btn_SamsungA30" runat="server" CssClass="auto-style80" Text="Mua Ngay" PostBackUrl="~/GioHang.aspx" />
         </td>
         <td class="auto-style101"><span class="auto-style88">Vivo Y19<br /><span class="auto-style86"><span class="auto-style89">4.990.000<span class="auto-style90">đ</span></span></span></span><br />
-            <asp:Button ID="btn_Vivo19" runat="server" CssClass="auto-style80" Text="Mua Ngay" />
+            <asp:Button ID="btn_Vivo19" runat="server" CssClass="auto-style80" Text="Mua Ngay" PostBackUrl="~/GioHang.aspx" />
         </td>
         <td class="auto-style68"><span class="auto-style88">Xiaomi Redmi 8<br /><span class="auto-style86"><span class="auto-style89">3.590.000<span class="auto-style90">đ</span></span></span></span><br />
-            <asp:Button ID="btn_Xiaomi8" runat="server" CssClass="auto-style80" Text="Mua Ngay" />
+            <asp:Button ID="btn_Xiaomi8" runat="server" CssClass="auto-style80" Text="Mua Ngay" PostBackUrl="~/GioHang.aspx" />
         </td>
     </tr>
     <tr>
@@ -239,13 +239,13 @@
     </tr>
     <tr>
         <td class="auto-style74"><span class="auto-style93">Loa Bluetooth eSaver S12B-2 Đen</span><span class="auto-style88"><br /><span class="auto-style86"><span class="auto-style89">512.000<span class="auto-style90">đ</span></span></span></span><br />
-            <asp:Button ID="btn_Loa" runat="server" CssClass="auto-style80" Text="Mua Ngay" />
+            <asp:Button ID="btn_Loa" runat="server" CssClass="auto-style80" Text="Mua Ngay" PostBackUrl="~/GioHang.aspx" />
         </td>
         <td class="auto-style73"><span class="auto-style93">Pin sạc dự phòng 19.000 mAh Xmobile Gram 6s Trắng</span><span class="auto-style91"><br /></span>1<span class="auto-style88"><span class="auto-style86"><span class="auto-style89">85.000<span class="auto-style90">đ</span></span></span></span><br />
-            <asp:Button ID="btn_PinDuPhong" runat="server" CssClass="auto-style80" Text="Mua Ngay" />
+            <asp:Button ID="btn_PinDuPhong" runat="server" CssClass="auto-style80" Text="Mua Ngay" PostBackUrl="~/GioHang.aspx" />
         </td>
         <td class="auto-style75"><span class="auto-style92">Thẻ nhớ MicroSD 32 GB Lexar class 10 UHS-I</span><span class="auto-style88"><br /><span class="auto-style86"><span class="auto-style89">180.000<span class="auto-style90">đ</span></span></span></span><br />
-            <asp:Button ID="btn_TheNho" runat="server" CssClass="auto-style80" Text="Mua Ngay" />
+            <asp:Button ID="btn_TheNho" runat="server" CssClass="auto-style80" Text="Mua Ngay" PostBackUrl="~/GioHang.aspx" />
         </td>
     </tr>
     <tr>

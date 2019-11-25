@@ -45,7 +45,7 @@
     <p>
         &nbsp;</p>
     <p>
-                <asp:HyperLink ID="HyperLink8" runat="server" NavigateUrl="~/SanPham_Samsung1.aspx" style="font-size: x-large">Quay lại</asp:HyperLink>
+                <asp:HyperLink ID="HyperLink8" runat="server" NavigateUrl="~/SanPham/SanPham_Vivo.aspx" style="font-size: x-large">Quay lại</asp:HyperLink>
                 </p>
 </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="ContentPlaceHolder2" Runat="Server">

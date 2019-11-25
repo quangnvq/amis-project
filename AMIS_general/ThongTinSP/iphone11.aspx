@@ -23,9 +23,6 @@
         .auto-style91 {
             color: #CC00CC;
         }
-        .auto-style92 {
-            width: 419px;
-        }
         .auto-style93 {
             color: #3333CC;
         }
@@ -37,12 +34,13 @@
             width: 479px;
         }
         .auto-style96 {
-            position: relative;
-            left: -4px;
-            top: 0px;
-            width: 423px;
+            color: #000000;
         }
-    </style>
+        .auto-style97 {
+            width: 479px;
+            text-align: center;
+        }
+        </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder3" Runat="Server">
     <table class="auto-style47">
@@ -62,15 +60,15 @@
             <td class="auto-style3">
                 <span class="auto-style84">iPhone 11 <span class="auto-style86">64GB<br />
                 </span></span><span class="auto-style86"><span class="auto-style89">21.990.000<span class="auto-style90">đ</span></span></span><br />
-                <asp:Button ID="btn_iphone11" runat="server" CssClass="auto-style80" Text="Mua Ngay" />
+                <asp:Button ID="btn_iphone11" runat="server" CssClass="auto-style80" Text="Mua Ngay" PostBackUrl="~/GioHang.aspx" />
             </td>
         </tr>
         <tr>
             <td>
-                <asp:Button ID="btn_GioHangIphone11" runat="server" CssClass="auto-style80" Text="Thêm giỏ hàng" />
+                <asp:Button ID="btn_GioHangIphone11" runat="server" CssClass="auto-style80" Text="Thêm giỏ hàng" PostBackUrl="~/GioHang.aspx" />
                 <br />
                 <br />
-                <asp:HyperLink ID="HyperLink8" runat="server" NavigateUrl="~/TrangChu.aspx">Quay lại</asp:HyperLink>
+                <asp:HyperLink ID="HyperLink8" runat="server" NavigateUrl="~/TrangChu1/TrangChu.aspx">Quay lại</asp:HyperLink>
             </td>
         </tr>
         <tr>
@@ -368,41 +366,47 @@
             <td class="auto-style94"><strong>Phản hồi của khách hàng</strong></td>
         </tr>
         <tr>
-            <td class="auto-style95">
-                <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
-&nbsp;&nbsp;&nbsp;
-                <asp:Button ID="Button2" runat="server" Text="Gửi phản hồi" Width="110px" CssClass="auto-style93" />
+            <td class="auto-style97">
+                Tên bạn:
+                <asp:TextBox ID="txt_TenKH" runat="server" Width="74px"></asp:TextBox>
+                Nội dung:
+                <asp:TextBox ID="txt_PhanHoi" runat="server"></asp:TextBox>
+&nbsp;&nbsp;&nbsp;<br />
+                <br />
+&nbsp;<asp:Button ID="btn_PhanHoi" runat="server" Text="Gửi phản hồi" Width="110px" CssClass="auto-style93" OnClick="btn_PhanHoi_Click" />
             </td>
         </tr>
         <tr>
             <td class="auto-style95">
-                <ul class="ratingLst" style="margin: 0px; padding: 0px; list-style: none; color: rgb(51, 51, 51); font-family: Helvetica, Arial, &quot;DejaVu Sans&quot;, &quot;Liberation Sans&quot;, Freesans, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial;">
-                    <li id="r-38096560" class="auto-style96" style="margin: 5px 25px 15px 0px; padding: 0px; ">
-                        <div class="rh" style="margin: 0px; padding: 0px;">
-                            <span style="margin: 0px 0px 5px; padding: 0px; font-weight: bold; display: inline-block; text-transform: capitalize;">Tấn Hữu</span><span>&nbsp;</span></div>
-                        <div class="rc" style="margin: 0px 0px 5px; padding: 0px;">
-                            <p style="margin: 0px; padding: 0px; margin-block-start: 0px; margin-block-end: 0px; margin-inline-start: 0px; margin-inline-end: 0px; text-rendering: geometricprecision;">
-                                <i style="margin: -3px 0px 0px; padding: 0px; font-style: normal; line-height: 1.5;">Mình đặt mua iPhone 11 và lấy 1/11 tại tgdđ dùng đến nay hơn tuần sài quá tuyệt vời quá mượt màn hình ip11 năm nay quá đẹp các tác vụ đều mượt mà ko chê vào đâu được, pin thì khỏi phải nói rồi trâu bò luôn....sản phẩm đáng mua! iPhone mà...</i></p>
-                        </div>
-                    </li>
-                    <li id="r-38033124" class="par" style="margin: 5px 25px 15px 0px; padding: 0px; position: relative;">
-                        <div class="rh" style="margin: 0px; padding: 0px;">
-                            <span style="margin: 0px 0px 5px; padding: 0px; font-weight: bold; display: inline-block; text-transform: capitalize;">Toản</span><span>&nbsp;</span></div>
-                        <div class="rc" style="margin: 0px 0px 5px; padding: 0px;">
-                            <p style="margin: 0px; padding: 0px; margin-block-start: 0px; margin-block-end: 0px; margin-inline-start: 0px; margin-inline-end: 0px; text-rendering: geometricprecision;">
-                                <i style="margin: -3px 0px 0px; padding: 0px; font-style: normal; line-height: 1.5;">Mượt ngon đẹp Mỗi tội trả góp trả được khuyến mại cái gì. APple bớt ki bo đi nhé. Heyy </i>
-                            </p>
-                        </div>
-                    </li>
-                    <li id="r-38018724" class="par" style="margin: 5px 25px 15px 0px; padding: 0px; position: relative;">
-                        <div class="rh" style="margin: 0px; padding: 0px;">
-                            <span style="margin: 0px 0px 5px; padding: 0px; font-weight: bold; display: inline-block; text-transform: capitalize;">Kun</span><span>&nbsp;</span></div>
-                        <div class="rc" style="margin: 0px 0px 5px; padding: 0px;">
-                            <p class="auto-style92" style="margin: 0px; padding: 0px; margin-block-start: 0px; margin-block-end: 0px; margin-inline-start: 0px; margin-inline-end: 0px; text-rendering: geometricprecision;">
-                                <i style="margin: -3px 0px 0px; padding: 0px; font-style: normal; line-height: 1.5;">Máy đẹp.dùng mượt khỏi chê.pin ổn dùng hỗn hợp đk tầm 6-&gt;7 tiếng.camera chụp đẹp.chơi game nhiêu hơi ấm thôi.nhân viên DMX cẩm sơn-cẩm thuỷ hỗ trợ nhiệt tình chu đáo.cảm ơn e NHÀN - mua có cái đt bé xíu mà xách za tận xe cho khách.đã và sẽ ủng hộ dài dài</i></p>
-                        </div>
-                    </li>
-                </ul>
+                <div class="rc" style="margin: 0px 0px 5px; padding: 0px;">
+                    <p style="margin: 0px; padding: 0px; margin-block-start: 0px; margin-block-end: 0px; margin-inline-start: 0px; margin-inline-end: 0px; text-rendering: geometricprecision;">
+                        &nbsp;</p>
+                    <p style="margin: 0px; padding: 0px; margin-block-start: 0px; margin-block-end: 0px; margin-inline-start: 0px; margin-inline-end: 0px; text-rendering: geometricprecision;">
+                        <strong>Tuấn</strong></p>
+                    <p style="margin: 0px; padding: 0px; margin-block-start: 0px; margin-block-end: 0px; margin-inline-start: 0px; margin-inline-end: 0px; text-rendering: geometricprecision;">
+                        <i style="margin: -3px 0px 0px; padding: 0px; font-style: normal; line-height: 1.5;">Mình đặt mua iPhone 11 và lấy 1/11 tại tgdđ dùng đến nay hơn tuần sài quá tuyệt vời quá mượt màn hình ip11 năm nay quá đẹp các tác vụ đều mượt mà ko chê vào đâu được, pin thì khỏi phải nói rồi trâu bò luôn....sản phẩm đáng mua! iPhone mà...</i></p>
+                </div>
+                <p>
+                    <i style="margin: -3px 0px 0px; padding: 0px; font-style: normal; line-height: 1.5;"><strong>Hiếu</strong></i></p>
+                <p>
+                    <i style="margin: -3px 0px 0px; padding: 0px; font-style: normal; line-height: 1.5;">Mượt ngon đẹp Mỗi tội trả góp trả được khuyến mại cái gì. APple bớt ki bo đi nhé. Heyy</i></p>
+                <p>
+                    <i style="margin: -3px 0px 0px; padding: 0px; font-style: normal; line-height: 1.5;">&nbsp;<strong><asp:Label ID="lbl_TenKH" runat="server"></asp:Label>
+                    </strong> </i>
+                </p>
+                <p>
+                    <asp:Label ID="lbl_PhanHoi" runat="server" CssClass="auto-style43"></asp:Label>
+                </p>
+                <p>
+                    <strong>
+                    <asp:Label ID="lbl_KhachHang" runat="server" CssClass="auto-style96"></asp:Label>
+                    </strong>
+                </p>
+                <p>
+                    <asp:Label ID="lbl_NoiDung" runat="server" CssClass="auto-style43"></asp:Label>
+                </p>
+                <p>
+                    &nbsp;</p>
             </td>
         </tr>
         <tr>

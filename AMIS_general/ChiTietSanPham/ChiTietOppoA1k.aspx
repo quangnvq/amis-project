@@ -19,7 +19,7 @@
     <p class="auto-style91">
         Điện thoại Oppo A1K</p>
     <p>
-        <asp:Image ID="Image1" runat="server" ImageUrl="~/Image/oppo a1k.PNG" />
+        <asp:Image ID="Image1" runat="server" ImageUrl="~/Image/oppo/oppo-a1k-red-600x600.jpg" Width="217px" />
     </p>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
@@ -29,14 +29,14 @@
         </span></span>
     </p>
     <p>
-        <asp:Image ID="Image3" runat="server" Height="326px" ImageUrl="~/Image/KMOA.PNG" Width="555px" />
+        <asp:Image ID="Image3" runat="server" Height="326px" ImageUrl="~/Image/oppo/oppo-a1k-red-600x600.jpg" Width="555px" />
     </p>
     <p>
                 <asp:Button ID="btn_iphone11" runat="server" CssClass="auto-style80" Text="Mua Ngay" PostBackUrl="~/GioHang.aspx" />
 &nbsp;<asp:Button ID="btn_MuaTraGop" runat="server" PostBackUrl="~/GioHang.aspx" style="color: #FF0000; font-size: x-large;" Text="Mua trả góp" />
                 </p>
     <p>
-                <asp:HyperLink ID="HyperLink8" runat="server" NavigateUrl="~/SanPham_Oppo1.aspx" style="font-size: x-large">Quay lại</asp:HyperLink>
+                <asp:HyperLink ID="HyperLink8" runat="server" NavigateUrl="~/SanPham/SanPham_Oppo1.aspx" style="font-size: x-large">Quay lại</asp:HyperLink>
                 </p>
 </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="ContentPlaceHolder2" Runat="Server">

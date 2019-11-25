@@ -18,7 +18,7 @@
     <p class="auto-style47">
         Điện thoại Oppo A9</p>
     <p>
-        <asp:Image ID="Image5" runat="server" ImageUrl="~/Image/oppo a9.PNG" />
+        <asp:Image ID="Image5" runat="server" ImageUrl="~/Image/oppo/oppo-f9-tim-600x600.jpg" Width="217px" />
     </p>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
@@ -29,14 +29,14 @@
         </span></span></span>
     </p>
     <p>
-        <asp:Image ID="Image3" runat="server" Height="326px" ImageUrl="~/Image/KMOF11.PNG" Width="555px" />
+        <asp:Image ID="Image3" runat="server" Height="326px" ImageUrl="~/Image/oppo/oppo-f9-tim-600x600.jpg" Width="484px" />
     </p>
     <br />
                 <asp:Button ID="btn_iphone11" runat="server" CssClass="auto-style80" Text="Mua Ngay" PostBackUrl="~/GioHang.aspx" />
 &nbsp;<asp:Button ID="btn_MuaTraGop" runat="server" PostBackUrl="~/GioHang.aspx" style="color: #FF0000; font-size: x-large;" Text="Mua trả góp" />
                 <br />
     <br />
-                <asp:HyperLink ID="HyperLink8" runat="server" NavigateUrl="~/SanPham_Oppo1.aspx" style="font-size: x-large">Quay lại</asp:HyperLink>
+                <asp:HyperLink ID="HyperLink8" runat="server" NavigateUrl="~/SanPham/SanPham_Oppo1.aspx" style="font-size: x-large">Quay lại</asp:HyperLink>
                 </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="ContentPlaceHolder2" Runat="Server">
     <h2 style="margin: 0px; padding: 0px; color: rgb(51, 51, 51); outline: none; zoom: 1; display: block; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; font-style: normal; font-variant: normal; font-weight: normal; line-height: 1.3em; font-family: Helvetica, Arial, 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;" class="auto-style47">Thông số kỹ thuật</h2>

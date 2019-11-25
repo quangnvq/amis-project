@@ -49,7 +49,7 @@
         <tr>
             <td class="auto-style50">Màn hình</td>
             <td>
-                <asp:TextBox ID="TextBox4" runat="server"></asp:TextBox>
+                <asp:TextBox ID="TextBox4" runat="server" Height="27px"></asp:TextBox>
             </td>
         </tr>
         <tr>
@@ -108,7 +108,7 @@
         </tr>
     </table>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <asp:Button ID="Button2" runat="server" style="font-size: large; color: #FF0000" Text="Chỉnh sửa" Width="131px" />
+    <asp:Button ID="Button2" runat="server" style="font-size: large; color: #FF0000" Text="Lưu" Width="131px" PostBackUrl="~/QuanLyThongTinSanPham.aspx" />
 </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="ContentPlaceHolder2" Runat="Server">
 </asp:Content>

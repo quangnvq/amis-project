@@ -64,7 +64,7 @@
                 <asp:Button ID="btn_GioHangIphone11" runat="server" CssClass="auto-style80" Text="Mua trả góp" />
                 <br />
     <br />
-                <asp:HyperLink ID="HyperLink8" runat="server" NavigateUrl="~/SanPham_Apple1.aspx">Quay lại</asp:HyperLink>
+                <asp:HyperLink ID="HyperLink8" runat="server" NavigateUrl="~/SanPham/SanPham_Apple1.aspx">Quay lại</asp:HyperLink>
             <br class="Apple-interchange-newline" />
 </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="ContentPlaceHolder2" Runat="Server">

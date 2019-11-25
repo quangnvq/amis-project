@@ -95,7 +95,7 @@
                 <asp:Button ID="btn_GioHangIphone11" runat="server" CssClass="auto-style80" Text="Mua trả góp" />
                 <br />
     <br />
-                <asp:HyperLink ID="HyperLink8" runat="server" NavigateUrl="~/SanPham_Honor.aspx" style="font-size: x-large">Quay lại</asp:HyperLink>
+                <asp:HyperLink ID="HyperLink8" runat="server" NavigateUrl="~/SanPham/SanPham_Honor.aspx" style="font-size: x-large">Quay lại</asp:HyperLink>
             </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="ContentPlaceHolder2" Runat="Server">
     <div class="fs-dttop" style="box-sizing: border-box; margin: 0px; padding: 13px 15px; border-width: 0px 0px 1px; border-top-style: initial; border-right-style: initial; border-bottom-style: solid; border-left-style: initial; border-top-color: initial; border-right-color: initial; border-bottom-color: rgb(227, 227, 227); border-left-color: initial; border-image: initial; font-size: 14px; font-weight: 400; vertical-align: baseline; background: transparent; color: rgb(51, 51, 51); font-family: Arial, Helvetica, sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">

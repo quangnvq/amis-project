@@ -54,7 +54,7 @@
     <br />
     <br />
     <br />
-                <asp:HyperLink ID="HyperLink8" runat="server" NavigateUrl="~/SanPham_Apple1.aspx">Quay lại</asp:HyperLink>
+                <asp:HyperLink ID="HyperLink8" runat="server" NavigateUrl="~/SanPham/SanPham_Apple1.aspx">Quay lại</asp:HyperLink>
             <br />
     <br />
     <br />
