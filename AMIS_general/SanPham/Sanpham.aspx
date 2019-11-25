@@ -52,6 +52,11 @@
             width: 223px;
             text-align: left;
         }
+        .auto-style102 {
+            text-decoration: none;
+            color: #996600;
+            font-size: large;
+        }
         </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder3" Runat="Server">
@@ -76,10 +81,18 @@
     <br />
     <br />
     <br />
-    <br />
-    <br />
-    <br />
     <asp:HyperLink ID="HyperLink12" runat="server" CssClass="auto-style44">Phụ kiện</asp:HyperLink>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <strong>
+    <asp:LinkButton ID="LinkButton1" runat="server" CssClass="auto-style102" PostBackUrl="~/QuanLyThongTinSanPham.aspx">Quản lý Sản Phẩm</asp:LinkButton>
+    </strong>
+    <br />
+    <br />
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
     <table class="auto-style47">

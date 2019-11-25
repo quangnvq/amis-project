@@ -37,7 +37,7 @@
 &nbsp;<asp:Button ID="btn_MuaTraGop" runat="server" PostBackUrl="~/GioHang.aspx" style="color: #FF0000; font-size: x-large;" Text="Mua trả góp" />
                 <br />
     <br />
-                <asp:HyperLink ID="HyperLink8" runat="server" NavigateUrl="~/SanPham_Oppo1.aspx" style="font-size: x-large">Quay lại</asp:HyperLink>
+                <asp:HyperLink ID="HyperLink8" runat="server" NavigateUrl="~/SanPham/SanPham_Oppo1.aspx" style="font-size: x-large">Quay lại</asp:HyperLink>
                 </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="ContentPlaceHolder2" Runat="Server">
     <h2 style="margin: 0px; padding: 0px; color: rgb(51, 51, 51); outline: none; zoom: 1; display: block; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; font-style: normal; font-variant: normal; font-weight: normal; line-height: 1.3em; font-family: Helvetica, Arial, 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;" class="auto-style47">Thông số kỹ thuật</h2>

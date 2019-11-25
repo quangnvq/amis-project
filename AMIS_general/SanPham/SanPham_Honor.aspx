@@ -88,7 +88,7 @@
         </tr>
         <tr>
             <td>
-                <asp:ImageButton ID="ImageButton1" runat="server" Height="333px" ImageUrl="~/Image/honor 10.PNG" style="margin-top: 0px" Width="246px" PostBackUrl="~/ChiTietSanPham/Honor10.aspx" />
+                <asp:ImageButton ID="ImageButton1" runat="server" Height="333px" ImageUrl="~/Image/honor/honor-10-lite-600x600.jpg" style="margin-top: 0px" Width="246px" PostBackUrl="~/ChiTietSanPham/Honor10.aspx" />
                 <br />
                 <span class="auto-style84"><span class="auto-style86">Honor 10<br /><span class="auto-style89">7.990.000<span class="auto-style90">đ</span></span></span></span><br />
                 <br />
@@ -108,7 +108,7 @@
                 <br />
             </td>
             <td>
-                <asp:ImageButton ID="ImageButton2" runat="server" Height="330px" ImageUrl="~/Image/honor 8x.jpg" style="margin-top: 0px" Width="245px" PostBackUrl="~/ChiTietSanPham/Honor8X.aspx" />
+                <asp:ImageButton ID="ImageButton2" runat="server" Height="330px" ImageUrl="~/Image/honor/honor-10i-200x200.jpg" style="margin-top: 0px" Width="245px" PostBackUrl="~/ChiTietSanPham/Honor8X.aspx" />
                 <br />
                 <span class="auto-style84"><span class="auto-style86">Honor 8X 128GB<br /><span class="auto-style89">5.990.000<span class="auto-style90">đ</span></span></span></span><br />&nbsp;<br />
                 Màn hình: 6.5&quot;, Full HD+<br />
@@ -126,7 +126,7 @@
 &nbsp;<asp:Button ID="btn_MuaTraGop0" runat="server" PostBackUrl="~/MuaTraGop.aspx" style="color: #FF0000" Text="Mua trả góp" />
             </td>
             <td class="auto-style93">
-                <asp:ImageButton ID="ImageButton5" runat="server" Height="330px" ImageUrl="~/Image/honor 7s.jpg" style="margin-top: 0px" Width="245px" PostBackUrl="~/ChiTietSanPham/Honor7s.aspx" />
+                <asp:ImageButton ID="ImageButton5" runat="server" Height="330px" ImageUrl="~/Image/honor/honor-note-10-1-200x200.jpg" style="margin-top: 0px" Width="245px" PostBackUrl="~/ChiTietSanPham/Honor7s.aspx" />
                 <br />
                 <span class="auto-style84"><span class="auto-style86">Honor 7s<br /><span class="auto-style89">1.990.000<span class="auto-style90">đ</span></span></span></span><br />&nbsp;<br />
                 <span class="auto-style98">Màn hình: 5.45&quot;, HD+<br />
@@ -144,7 +144,7 @@
 &nbsp;<asp:Button ID="btn_MuaTraGop3" runat="server" PostBackUrl="~/MuaTraGop.aspx" style="color: #FF0000" Text="Mua trả góp" />
                 </span></td>
             <td class="auto-style91">
-                <asp:ImageButton ID="ImageButton4" runat="server" Height="333px" ImageUrl="~/Image/honor play.PNG" style="margin-top: 0px" Width="246px" PostBackUrl="~/ChiTietSanPham/HonorPlay.aspx" />
+                <asp:ImageButton ID="ImageButton4" runat="server" Height="333px" ImageUrl="~/Image/honor/huawei-honor-10-200x200.jpg" style="margin-top: 0px" Width="246px" PostBackUrl="~/ChiTietSanPham/HonorPlay.aspx" />
                 <br />
                 <span class="auto-style84"><span class="auto-style86">Honor Play<br /></span></span><span class="auto-style86"><span class="auto-style89">NGỪNG KINH DOANH</span></span><br />&nbsp;<br />
                 Màn hình: 6.3&quot;,&nbsp; Full HD+<br />

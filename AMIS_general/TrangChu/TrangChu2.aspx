@@ -182,13 +182,13 @@
         </tr>
         <tr>
             <td class="auto-style79"><span class="auto-style84">OPPO Ren<span class="auto-style86">o2<br /></span></span><span class="auto-style86"><span class="auto-style89">14.990.000<span class="auto-style90">đ</span></span></span><br />
-                <asp:Button ID="btn_Oppo2" runat="server" CssClass="auto-style80" Text="Mua Ngay" />
+                <asp:Button ID="btn_Oppo2" runat="server" CssClass="auto-style80" Text="Mua Ngay" PostBackUrl="~/GioHang.aspx" />
             </td>
             <td class="auto-style79"><span class="auto-style88">Oppo Reno 10x<br /><span class="auto-style86"><span class="auto-style89">16.690.000<span class="auto-style90">đ</span></span></span></span><br class="auto-style87" />
-                <asp:Button ID="btn_Oppo10" runat="server" CssClass="auto-style80" Text="Mua Ngay" />
+                <asp:Button ID="btn_Oppo10" runat="server" CssClass="auto-style80" Text="Mua Ngay" PostBackUrl="~/GioHang.aspx" />
             </td>
             <td class="auto-style66"><span class="auto-style88">Nokia 8.1<br /><span class="auto-style86"><span class="auto-style89">6.990.000<span class="auto-style90">đ</span></span></span></span><br />
-                <asp:Button ID="btn_Nokia81" runat="server" CssClass="auto-style80" Text="Mua Ngay" />
+                <asp:Button ID="btn_Nokia81" runat="server" CssClass="auto-style80" Text="Mua Ngay" PostBackUrl="~/GioHang.aspx" />
             </td>
         </tr>
         <tr>
@@ -204,13 +204,13 @@
         </tr>
         <tr>
             <td class="auto-style78"><span class="auto-style88">Nokia 7.2<br /><span class="auto-style86"><span class="auto-style89">6.490.000<span class="auto-style90">đ</span></span></span></span><br />
-                <asp:Button ID="btn_Nokia72" runat="server" CssClass="auto-style80" Text="Mua Ngay" />
+                <asp:Button ID="btn_Nokia72" runat="server" CssClass="auto-style80" Text="Mua Ngay" PostBackUrl="~/GioHang.aspx" />
             </td>
             <td class="auto-style78"><span class="auto-style88">Nokia 6.1<br /><span class="auto-style86"><span class="auto-style89">3.990.000<span class="auto-style90">đ</span></span></span></span><br />
-                <asp:Button ID="btn_Nokia61" runat="server" CssClass="auto-style80" Text="Mua Ngay" />
+                <asp:Button ID="btn_Nokia61" runat="server" CssClass="auto-style80" Text="Mua Ngay" PostBackUrl="~/GioHang.aspx" />
             </td>
             <td class="auto-style68"><span class="auto-style88">Nokia 5.1 plus<br /><span class="auto-style86"><span class="auto-style89">3.590.000<span class="auto-style90">đ</span></span></span></span><br />
-                <asp:Button ID="btn_Nokia51" runat="server" CssClass="auto-style80" Text="Mua Ngay" />
+                <asp:Button ID="btn_Nokia51" runat="server" CssClass="auto-style80" Text="Mua Ngay" PostBackUrl="~/GioHang.aspx" />
             </td>
         </tr>
         <tr>
@@ -229,13 +229,13 @@
         </tr>
         <tr>
             <td class="auto-style74"><span class="auto-style93">Pin sạc dự phòng 7500mah ava ds630 wb trắng</span><span class="auto-style88"><br /><span class="auto-style86"><span class="auto-style89">250.000<span class="auto-style90">đ</span></span></span></span><br />
-                <asp:Button ID="Button5" runat="server" CssClass="auto-style80" Text="Mua Ngay" />
+                <asp:Button ID="Button5" runat="server" CssClass="auto-style80" Text="Mua Ngay" PostBackUrl="~/GioHang.aspx" />
             </td>
             <td class="auto-style73"><span class="auto-style93">Pin sạc dự phòng 19.000 mAh Xmobile Gram 6s Trắng</span><span class="auto-style91"><br /></span>1<span class="auto-style88"><span class="auto-style86"><span class="auto-style89">85.000<span class="auto-style90">đ</span></span></span></span><br />
-                <asp:Button ID="Button6" runat="server" CssClass="auto-style80" Text="Mua Ngay" />
+                <asp:Button ID="Button6" runat="server" CssClass="auto-style80" Text="Mua Ngay" PostBackUrl="~/GioHang.aspx" />
             </td>
             <td class="auto-style75"><span class="auto-style92">Thể nhớ MicroSD 32 GB Lexar class 10 UHS-I</span><span class="auto-style88"><br /><span class="auto-style86"><span class="auto-style89">180.000<span class="auto-style90">đ</span></span></span></span><br />
-                <asp:Button ID="Button7" runat="server" CssClass="auto-style80" Text="Mua Ngay" />
+                <asp:Button ID="Button7" runat="server" CssClass="auto-style80" Text="Mua Ngay" PostBackUrl="~/GioHang.aspx" />
             </td>
         </tr>
         <tr>

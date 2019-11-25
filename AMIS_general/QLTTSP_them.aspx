@@ -108,7 +108,7 @@
         </tr>
     </table>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <asp:Button ID="Button2" runat="server" style="font-size: large; color: #FF0000" Text="Lưu" Width="92px" />
+    <asp:Button ID="Button2" runat="server" style="font-size: large; color: #FF0000" Text="Lưu" Width="92px" PostBackUrl="~/QuanLyThongTinSanPham.aspx" />
     <br />
 </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="ContentPlaceHolder2" Runat="Server">

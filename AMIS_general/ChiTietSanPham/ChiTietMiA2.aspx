@@ -23,7 +23,7 @@
     <p class="auto-style91">
         Điện thoại Xiaomi Mi A2</p>
     <p>
-        <asp:Image ID="Image1" runat="server" ImageUrl="~/Image/mi a2.PNG" Width="366px" Height="377px" />
+        <asp:Image ID="Image1" runat="server" ImageUrl="~/Image/xiaomi/xiaomi-mi-a3-white-18thangbh-600x600.jpg" Width="366px" Height="377px" />
     </p>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
@@ -34,14 +34,14 @@
         </span></span>
     </p>
     <p>
-        <asp:Image ID="Image3" runat="server" Height="326px" ImageUrl="~/Image/KMMi9.PNG" Width="555px" />
+        <asp:Image ID="Image3" runat="server" Height="326px" ImageUrl="~/Image/xiaomi/xiaomi-mi-9-se-blue-18thangbh-600x600.jpg" Width="555px" />
     </p>
     <p>
                 <asp:Button ID="btn_iphone11" runat="server" CssClass="auto-style80" Text="Mua Ngay" PostBackUrl="~/GioHang.aspx" />
 &nbsp;<asp:Button ID="btn_MuaTraGop" runat="server" PostBackUrl="~/GioHang.aspx" style="color: #FF0000; font-size: x-large;" Text="Mua trả góp" />
                 </p>
     <p>
-                <asp:HyperLink ID="HyperLink8" runat="server" NavigateUrl="~/SanPham_Xiaomi1.aspx" style="font-size: x-large">Quay lại</asp:HyperLink>
+                <asp:HyperLink ID="HyperLink8" runat="server" NavigateUrl="~/SanPham/SanPham_Xiaomi1.aspx" style="font-size: x-large">Quay lại</asp:HyperLink>
             </p>
 </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="ContentPlaceHolder2" Runat="Server">
